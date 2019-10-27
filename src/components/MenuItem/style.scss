@@ -1,5 +1,6 @@
 .menu-item {
 	display: flex;
+	overflow: hidden;
 	align-items: center;
 	flex: 1 1 auto;
 	justify-content: center;
@@ -7,7 +8,6 @@
 	height: 240px;
 	margin: 0 7.5px 15px;
 	border: 1px solid black;
-	overflow: hidden;
 
 	&:hover {
 		cursor: pointer;
@@ -16,8 +16,11 @@
 			transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
 			transform: scale(1.1);
 		}
-	}
 
+		& .content {
+			opacity: 0.9;
+		}
+	}
 
 	&.large {
 		height: 380px;
