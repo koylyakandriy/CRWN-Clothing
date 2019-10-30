@@ -5,7 +5,7 @@
 	line-height: 50px;
 	display: inline-block;
 	width: auto;
-	max-width: 165px;
+	min-width: 165px;
 	height: 50px;
 	padding: 0 35px 0 35px;
 	cursor: pointer;
@@ -19,5 +19,14 @@
 		color: black;
 		border: 1px solid black;
 		background-color: white;
+	}
+
+	&.google-sign-in {
+		color: #fff;
+		background-color: #4285f5;
+
+		&:hover {
+			background-color: #357ae8;
+		}
 	}
 }
