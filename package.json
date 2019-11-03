@@ -1,34 +1,56 @@
 {
-  "name": "crwn-clothing",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "firebase": "^7.2.2",
-    "node-sass": "^4.12.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "crwn-clothing",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@babel/runtime": "^7.6.3",
+		"@typescript-eslint/eslint-plugin": "2.x",
+		"@typescript-eslint/parser": "2.x",
+		"babel-eslint": "10.x",
+		"eslint-config-react-app": "^5.0.2",
+		"eslint-plugin-flowtype": "3.x",
+		"eslint-plugin-import": "2.x",
+		"eslint-plugin-jsx-a11y": "6.x",
+		"eslint-plugin-react": "7.x",
+		"eslint-plugin-react-hooks": "1.x",
+		"firebase": "^7.2.2",
+		"node-sass": "^4.12.0",
+		"react": "^16.11.0",
+		"react-dev-utils": "^9.1.0",
+		"react-dom": "^16.11.0",
+		"react-redux": "^7.1.1",
+		"react-router-dom": "^5.1.2",
+		"react-scripts": "3.2.0",
+		"redux": "^4.0.4",
+		"redux-devtools-extension": "^2.13.8",
+		"redux-logger": "latest"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"eslint": "node_modules/.bin/eslint src/"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"eslint": "6.x",
+		"eslint-config-prettier": "^6.5.0",
+		"eslint-plugin-prettier": "^3.1.1",
+		"prettier": "^1.18.2"
+	}
 }
