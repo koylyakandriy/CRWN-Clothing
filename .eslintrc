@@ -11,8 +11,10 @@
 		"sourceType": "module"
 	},
 	"rules": {
-		"no-console": "off",
+		"no-console": "warn",
 		"no-eval": "error",
-		"import/first": "error"
+		"import/first": "error",
+		"jsx-a11y/click-events-have-key-events": "off",
+		"jsx-a11y/no-static-element-interactions": "off"
 	}
 }
