@@ -23,7 +23,8 @@
 		"react-scripts": "3.2.0",
 		"redux": "^4.0.4",
 		"redux-devtools-extension": "^2.13.8",
-		"redux-logger": "latest"
+		"redux-logger": "latest",
+		"reselect": "^4.0.0"
 	},
 	"scripts": {
 		"start": "react-scripts start",
