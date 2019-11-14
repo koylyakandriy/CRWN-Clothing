@@ -24,6 +24,7 @@
 		"redux": "^4.0.4",
 		"redux-devtools-extension": "^2.13.8",
 		"redux-logger": "latest",
+		"redux-persist": "^6.0.0",
 		"reselect": "^4.0.0"
 	},
 	"scripts": {

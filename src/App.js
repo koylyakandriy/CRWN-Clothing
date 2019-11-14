@@ -5,8 +5,9 @@ import { createStructuredSelector } from "reselect";
 
 import HomePage from "./page/Homepage";
 import ShopPage from "./page/Shop";
-import Header from "./components/Header";
+import Checkout from "./page/Checkout";
 import SignInAndSignUp from "./page/SignInAndSignUp";
+import Header from "./components/Header";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { setCurrentUserAction } from "./redux/user/userActions";
 import { selectCurrentUser } from "./redux/user/userSelectors";
@@ -29,7 +30,6 @@ class App extends Component {
 						...snapShot.data(),
 					});
 					// () => {console.log('this.state:', this.state)}
-					console.log("this.state:", this.state);
 				});
 			}
 			setCurrentUser(userAuth);
@@ -47,7 +47,8 @@ class App extends Component {
 				<Header />
 				<Switch>
 					<Route exact path="/" component={HomePage} />
-					<Route exact path="/shop" component={ShopPage} />
+					<Route path="/shop" component={ShopPage} />
+					<Route exact path="/checkout" component={Checkout} />
 					<Route
 						exact
 						path="/signin"
