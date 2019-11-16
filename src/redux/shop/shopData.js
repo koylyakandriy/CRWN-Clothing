@@ -60,7 +60,7 @@ const SHOP_DATA = {
 			},
 		],
 	},
-	Sneakers: {
+	sneakers: {
 		id: 2,
 		title: "Sneakers",
 		routeName: "sneakers",
@@ -115,7 +115,7 @@ const SHOP_DATA = {
 			},
 		],
 	},
-	Jackets: {
+	jackets: {
 		id: 3,
 		title: "Jackets",
 		routeName: "jackets",
@@ -152,7 +152,7 @@ const SHOP_DATA = {
 			},
 		],
 	},
-	Women: {
+	women: {
 		id: 4,
 		title: "Women",
 		routeName: "women",
@@ -201,7 +201,7 @@ const SHOP_DATA = {
 			},
 		],
 	},
-	Men: {
+	men: {
 		id: 5,
 		title: "Men",
 		routeName: "men",

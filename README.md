@@ -5,3 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 yarn start or npm start# CRWN-Clothing
+
+
+Test payment
+4242 4242 4242 4242
+01/20
+123
