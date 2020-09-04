@@ -14,7 +14,7 @@
 		"eslint-plugin-react": "7.x",
 		"eslint-plugin-react-hooks": "1.x",
 		"firebase": "^7.2.2",
-		"node-sass": "^4.12.0",
+		"node-sass": "^4.13.1",
 		"react": "^16.11.0",
 		"react-dev-utils": "^9.1.0",
 		"react-dom": "^16.11.0",
